@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body onload="init()">
+	<div class="content">
+		<img class="center" id="image">
+		<button onclick="showPrevImage()">Previous</button>
+		<button onclick="showNextImage()">Next</button>
+		<br><br>
+		<button id="startButton" disabled>Start</button>
+		<button id="stopButton" disabled>Stop</button>
+		<p><strong>Recordings:</strong></p>
+			<ol id="recordingsList"></ol>
+	</div>
+	<script src="/static/script.js"></script>
+	<script src="/static/recorder.js"></script>
+</body>
+
+</html>
